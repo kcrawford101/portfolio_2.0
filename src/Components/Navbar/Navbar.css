@@ -1,0 +1,46 @@
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    color: #edf0f1;
+    background-color: #24252a;             
+}
+
+li a {
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 20px;
+    background-color: #24252a;
+    box-shadow: 5px 10px 5px black;
+}
+
+.nav__links {
+    list-style: none;
+    background-color: #24252a;    
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+    background-color: #24252a;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+    background-color: #24252a;    
+}
+
+.nav__links li a:hover {
+    color: rgb(10, 97, 112);   
+}
+
