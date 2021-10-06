@@ -21,7 +21,7 @@ li a {
     padding: 30px;
     margin-bottom: 20px;
     background-color: #24252a;
-    box-shadow: 5px 10px 5px black;
+    /* box-shadow: 5px 10px 5px black; */
 }
 
 .nav__links {

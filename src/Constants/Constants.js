@@ -1,6 +1,7 @@
 /* 
 Import project images here! 
 */
+import tradeguide from '../Images/tradeguide.png'
 
 export const projects = [
     {

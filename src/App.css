@@ -1,8 +1,9 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box;  
 }
 
 html, body {
+  background-color: rgb(10, 97, 112);
   height: 100%;
   padding: 0px;
   margin: 0px;
