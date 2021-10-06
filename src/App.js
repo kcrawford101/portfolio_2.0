@@ -5,13 +5,12 @@ import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
-    <div className="page-container">
-    <div className="content-wrap">
+    <div className="App">   
 
       <header className="App-header">
         <Navbar />        
       </header>
-      </div>
+      
 
       <Footer />
     </div>
