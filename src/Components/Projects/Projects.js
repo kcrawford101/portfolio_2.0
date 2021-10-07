@@ -5,13 +5,15 @@ import { constant } from '../../Constants/Constants'
 const Projects = () => {
     return (
         <>
-        <h2 className='project-title'>Projects</h2>
+
         
-        <div className="project-container">
+        
+        <div className='project-container' >
+            <h2 className='project-title'>Projects</h2>
         
             
             
-            
+            <div className="project-cards">
             {constant.map(({ id, image, title, description, tags, source, visit }) => (
                 
                 <div key={id}className="card">
@@ -31,6 +33,7 @@ const Projects = () => {
                     
                 </div>
             ))}
+            </div>
         </div>
         </>
     );

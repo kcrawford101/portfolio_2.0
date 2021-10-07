@@ -3,10 +3,16 @@
     text-align: center;
     font-size: 50px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.281);
+    /* background-color: rgba(0, 0, 0, 0.281); */
 }
+
 .project-container {
     background-color: rgba(0, 0, 0, 0.281);
+    padding: 15px; 
+}
+
+.project-cards {
+    /* background-color: rgba(0, 0, 0, 0.281); */
     display: flex;
     flex-wrap: wrap;
     padding: 50px;
