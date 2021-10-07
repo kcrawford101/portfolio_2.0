@@ -5,7 +5,7 @@
 .profile-pic img {
     margin: 0px;
     padding: 0px;
-    width: 50%;
+    width: 100%;
     border-radius: 50%;
     /* float: left; */
 }
@@ -13,7 +13,7 @@
 .about-title {
     margin: 0px;
     text-align: center;
-    font-size: 2em;
+    font-size: 50px;
     color: white;
     /* background-color: rgba(0, 0, 0, 0.281); */
 }
@@ -22,11 +22,31 @@
     /* background-color: rgba(0, 0, 0, 0.281); */
     display: flex;
     /* flex-wrap: wrap; */
-    padding: 25px;
-    /* justify-content:space-evenly; */
+    padding: 5px;
+    justify-content:space-evenly;
 }
 
-.about-info p{
+.about-info {
+    width: 50%;
+}
+
+.about-info p {
+    padding: 20px;
+    font-size: 30px;
     color: white;
     float: right;
+}
+
+.about-tech {
+    margin: 0px;
+    font-size: 35px;
+    color: white;
+    text-decoration: underline;
+}
+
+.about-tech ul, li{
+    list-style: none;
+    margin: 0px;
+    font-size: 30px;
+    color: white;
 }
