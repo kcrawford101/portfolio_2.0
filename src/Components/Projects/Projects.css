@@ -1,8 +1,12 @@
-h2 {
+.project-title {
+    margin: 0px;
+    text-align: center;
     font-size: 2em;
     color: white;
+    background-color: rgba(0, 0, 0, 0.281);
 }
 .project-container {
+    background-color: rgba(0, 0, 0, 0.281);
     display: flex;
     flex-wrap: wrap;
     padding: 50px;
