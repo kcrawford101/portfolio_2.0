@@ -13,8 +13,8 @@ const Projects = () => {
                         <p className="card-subtitle">{description}</p>
                         
                         <div className="card-button">
-                            <button href={source}>Github Rep</button>
-                            <button href={visit}>Deployed App</button>
+                           <a href={source}><button >Github Repo</button></a>
+                            <a href={visit}><button>Deployed App</button></a>
                         </div>
                         
 
