@@ -4,6 +4,8 @@ import { constant } from '../../Constants/Constants'
 
 const Projects = () => {
     return (
+        <>
+        <h2>Projects</h2>
         <div className="project-container">
             {constant.map(({ id, image, title, description, tags, source, visit }) => (
                 <div key={id}className="card">
@@ -13,8 +15,8 @@ const Projects = () => {
                         <p className="card-subtitle">{description}</p>
                         
                         <div className="card-button">
-                           <a href={source}><button >Github Repo</button></a>
-                            <a href={visit}><button>Deployed App</button></a>
+                           <a href={source} target='_blank'><button >Github Repo</button></a>
+                            <a href={visit} target='_blank'><button>Deployed App</button></a>
                         </div>
                         
 
@@ -24,6 +26,7 @@ const Projects = () => {
                 </div>
             ))}
         </div>
+        </>
     );
 };
 
