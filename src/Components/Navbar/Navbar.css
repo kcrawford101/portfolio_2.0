@@ -1,13 +1,18 @@
 h1 {
-    font-family: "Oswald", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 50px;
     color: #edf0f1;
     background-color: #24252a;             
 }
 
+.deer-icon {
+    font-size: 150px;
+    margin: 0px 200px 0px 0px;
+}
+
 li a {
-    font-family: "Oswald", sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 30px;
     color: #edf0f1;
@@ -20,8 +25,7 @@ li a {
     align-items: center;
     padding: 30px;
     margin-bottom: 20px;
-    background-color: #24252a;
-    /* box-shadow: 5px 10px 5px black; */
+    background-color: #24252a;    
 }
 
 .nav__links {

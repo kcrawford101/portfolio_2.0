@@ -9,7 +9,7 @@ const Projects = () => {
         
         
         <div className='project-container' >
-            <h2 className='project-title'>Projects</h2>
+            <h2 className='project-title'>My Projects</h2>
         
             
             
@@ -18,7 +18,8 @@ const Projects = () => {
                 
                 <div key={id}className="card">
                     <div className="card-body">
-                        <h5 className="card-title">{title} | <span style={{fontSize:'20px'}}>{tags}</span></h5>
+                        <h5 className="card-title">{title}<br />
+                        <span>{tags}</span></h5>
                         <img className="card-image" src={image}></img>
                         <p className="card-subtitle">{description}</p>
                         

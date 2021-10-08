@@ -22,9 +22,9 @@ const About = () => {
                 </p>
 
                 <div className='about-icons'>
-                    <a><FaLinkedin /></a>
-                    <a><FaEnvelope /></a>
-                    <a><FaGithub /></a>
+                    <a href= 'https://www.linkedin.com/in/kcrawford117/' target='_blank'><FaLinkedin /></a>                    
+                    <a href= 'https://github.com/kcrawford101' target='_blank'><FaGithub /></a>
+                    <a href='mailto:crawfordkevin101@gmail.com'><FaEnvelope /></a>
                 </div>
             </div>
 

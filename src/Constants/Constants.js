@@ -4,6 +4,9 @@ Import project images here!
 import tradeguide from '../Images/tradeguide.png';
 import auction from '../Images/auction.png';
 import weather from '../Images/weather_app.jpg';
+import fitness from '../Images/Fitness_Tracker.jpg';
+import book from '../Images/book_search.jpg';
+import employee from '../Images/employee_tracker.JPG'
 
 
 export const constant = [
@@ -34,4 +37,31 @@ export const constant = [
         visit: 'https://kcrawford101.github.io/Weather_App_2.0/',
         id: 2,
       },
+      {
+        title: 'Fitness Tracker',
+        description:"The fitness tracker app will allow users to track workout routines. Users will be able to add any resistance and/or cardio based routines and track their progress through the user dashboard.",
+        image: fitness,
+        tags: ['HTML ','CSS, ', 'Javascript '],
+        source: 'https://github.com/kcrawford101/Fitness_Tracker',
+        visit: 'https://stark-lowlands-17260.herokuapp.com/',
+        id: 3,
+      },
+      {
+        title: 'Book Search',
+        description:"On the book search engine app, users will be able to search for any books through the search bar. If the user wants to save their favorite books, the user will need to create/login into the account.",
+        image: book,
+        tags: ['React, ', 'javascript'],
+        source: 'https://github.com/kcrawford101/Book_Search_Engine',
+        visit: 'https://cryptic-everglades-34888.herokuapp.com/',
+        id: 4,
+      },
+      {
+        title: 'Employee Tracker',
+        description:"On the book search engine app, users will be able to search for any books through the search bar. If the user wants to save their favorite books, the user will need to create/login into the account.",
+        image: employee,
+        tags: ['javascript, ', 'MySQL'],
+        source: 'https://github.com/kcrawford101/Employee_Tracker',
+        visit: 'https://drive.google.com/file/d/1pci7myXKFeogta41_Jnl2T-fwKu5e0E4/view',
+        id: 5,
+      }
 ];

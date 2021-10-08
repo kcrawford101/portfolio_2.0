@@ -1,5 +1,7 @@
 * {
-  box-sizing: border-box;  
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(245, 244, 237);  
 }
 
 html, body {
