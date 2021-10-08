@@ -18,7 +18,9 @@ const About = () => {
             <div className='about-info'>
                 <h2 className='about-title'>About Me</h2>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <span style={{fontWeight:'300'}}>Hey, I’m Kevin!</span> I’m a full-stack developer who recently completed a three month coding bootcamp course through University of Toronto School of Continuing Studies in August of 2021. 
+                My goal is to help improve and optimize your business to be more efficient and generate more traffic to your website. Your clients expect a certain standard from you and I’m here to help you go beyond your clients expectations. 
+                I offer a wide range of skills from basic HTML, CSS, Javascript, and React. I’m also very proficient with Photoshop.
                 </p>
 
                 <div className='about-icons'>

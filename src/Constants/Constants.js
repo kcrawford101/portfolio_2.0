@@ -6,7 +6,9 @@ import auction from '../Images/auction.png';
 import weather from '../Images/weather_app.jpg';
 import fitness from '../Images/Fitness_Tracker.jpg';
 import book from '../Images/book_search.jpg';
-import employee from '../Images/employee_tracker.JPG'
+import employee from '../Images/employee_tracker.JPG';
+import budget from '../Images/Budget_Tracker.jpg'
+import planner from '../Images/Day_Planner.jpg'
 
 
 export const constant = [
@@ -18,16 +20,7 @@ export const constant = [
         source: 'https://github.com/ErnestAr/Trade_Guide',
         visit: 'https://ernestar.github.io/Trade_Guide/',
         id: 0,
-    },
-    {
-        title: 'Super Auction Kart',
-        description: "Super Auction Cart is an auction site strictly for Nintendo products. It reduces the amount of time collector's spend searching the internet for Nintendo items. Super Auction Cart also helps reduce the amount of time a collector spends listing their items to sell too.",
-            image: auction,
-            tags: ['MySQ, ', 'Javascript '],
-        source: 'https://github.com/harviator/project-2-auction-site',
-        visit: 'https://enigmatic-taiga-76650.herokuapp.com/',
-        id: 1,
-    },
+    },    
     {
         title: 'Weather App',
         description:"A weather application that uses jquery, moment.js and Openweathermap API. Users are able to search a cities weather information and retrieve the cities temperature, wind speed, humidity, conditions, and uv index.",
@@ -35,7 +28,7 @@ export const constant = [
         tags: ['API, ', 'Javascript, ', 'Moment.js'],
         source: 'https://github.com/kcrawford101/Weather_App_2.0',
         visit: 'https://kcrawford101.github.io/Weather_App_2.0/',
-        id: 2,
+        id: 1,
       },
       {
         title: 'Fitness Tracker',
@@ -44,7 +37,7 @@ export const constant = [
         tags: ['HTML ','CSS, ', 'Javascript '],
         source: 'https://github.com/kcrawford101/Fitness_Tracker',
         visit: 'https://stark-lowlands-17260.herokuapp.com/',
-        id: 3,
+        id: 2,
       },
       {
         title: 'Book Search',
@@ -53,7 +46,7 @@ export const constant = [
         tags: ['React, ', 'javascript'],
         source: 'https://github.com/kcrawford101/Book_Search_Engine',
         visit: 'https://cryptic-everglades-34888.herokuapp.com/',
-        id: 4,
+        id: 3,
       },
       {
         title: 'Employee Tracker',
@@ -62,6 +55,33 @@ export const constant = [
         tags: ['javascript, ', 'MySQL'],
         source: 'https://github.com/kcrawford101/Employee_Tracker',
         visit: 'https://drive.google.com/file/d/1pci7myXKFeogta41_Jnl2T-fwKu5e0E4/view',
+        id: 4,
+      },
+      {
+        title: 'Budget Tracker',
+        description:"The budget tracker app allows users to keep track of their personal finances and then view those transactions on a line graph.",
+        image: budget,
+        tags: ['javascript, ', 'Mongoose', 'Express'],
+        source: 'https://github.com/kcrawford101/Budget_Tracker',
+        visit: 'https://blooming-crag-02089.herokuapp.com/',
         id: 5,
-      }
+      },
+      {
+        title: 'Day Planner',
+        description:"This day planner is to help the user organize and plan their tasks for the day.",
+        image: planner,
+        tags: ['javascript, ', 'jQuery', 'Moment.js'],
+        source: 'https://github.com/kcrawford101/Day_Planner',
+        visit: 'https://kcrawford101.github.io/Day_Planner/',
+        id: 6,
+      },
+      {
+        title: 'Super Auction Kart',
+        description: "Super Auction Cart is an auction site strictly for Nintendo products. It reduces the amount of time collector's spend searching the internet for Nintendo items. Super Auction Cart also helps reduce the amount of time a collector spends listing their items to sell too.",
+            image: auction,
+            tags: ['MySQ, ', 'Javascript '],
+        source: 'https://github.com/harviator/project-2-auction-site',
+        visit: 'https://enigmatic-taiga-76650.herokuapp.com/',
+        id: 7,
+    },
 ];

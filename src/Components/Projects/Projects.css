@@ -12,7 +12,7 @@
 
 .project-cards {    
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     padding: 50px;
     justify-content: center; 
 }
@@ -59,14 +59,20 @@
     text-align: center;
 }
 
-.card-button button {
-    background-color: rgba(131, 122, 2, 0.747);
-    font-weight: 400; 
-    font-size: 18px;
+.card-button a {
+    transition: all 0.3s ease 0s;
+    background-color: #24252a;   
+    font-weight: 500; 
+    font-size: 20px;
     text-transform: uppercase;
+    text-decoration: none;
     margin: 5px;
     padding: 5px;
     cursor: pointer;
     border-radius: 5px;
 
+}
+
+.card-button a:hover {
+    color: rgb(10, 97, 112); 
 }

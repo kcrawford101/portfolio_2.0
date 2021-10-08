@@ -24,8 +24,8 @@ const Projects = () => {
                         <p className="card-subtitle">{description}</p>
                         
                         <div className="card-button">
-                           <a href={source} target='_blank'><button >Github Repo</button></a>
-                            <a href={visit} target='_blank'><button>Deployed App</button></a>
+                           <a href={source} target='_blank'>Github Repo</a>
+                            <a href={visit} target='_blank'>Deployed App</a>
                         </div>
                         
 

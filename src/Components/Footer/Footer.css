@@ -3,9 +3,9 @@
   color: white;
   height: 50px;
   text-align: center;
-  position: fixed;
+  position: static;
   width: 100%;
   bottom: 0px;
-  left: 0px;
+  /* left: 0px; */
   padding-top: 20px;
 }
