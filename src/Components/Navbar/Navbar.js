@@ -11,7 +11,7 @@ const Navbar = () => {
             <nav>
                 <ul class="nav__links">                    
                     <li><a href='https://drive.google.com/file/d/1FooX3CPgD_tfe2gbXup9JVvG_LVZjWEx/view?usp=sharing' target= '_blank'>My Resume</a></li>
-                    <li><a href='mailto:crawfordkevin101@gmail.com'>Contact Me</a></li>
+                    <li><a href='/Footer/#contact'>Contact Me</a></li>
                 </ul>
             </nav>            
         </div>

@@ -36,16 +36,6 @@
     float: right;
 }
 
-.about-icons {
-    font-size: 75px;
-    text-align: center;    
-}
-
-.about-icons a {    
-    margin: 10px;
-    text-align: center;
-}
-
 .tech-container {
     margin-top: 50px;
     background-color: #24252a;    
