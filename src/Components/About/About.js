@@ -16,9 +16,14 @@ const About = () => {
             <div className='about-info'>
                 <h2 className='about-title'>About Me</h2>
                 <p>
-                <span style={{fontWeight:'300'}}>Hey, I’m Kevin!</span> I’m a full-stack developer who recently completed a three month coding bootcamp course through University of Toronto School of Continuing Studies in August of 2021. 
-                My goal is to help improve and optimize your business to be more efficient and generate more traffic to your website. Your clients expect a certain standard from you and I’m here to help you go beyond your clients expectations. 
-                I offer a wide range of skills from basic HTML, CSS, Javascript, and React. I’m also very proficient with Photoshop.
+                <span style={{fontWeight:'300'}}>Hey, I’m Kevin!</span> I am a full-stack developer with a certificate from the University of Toronto School of Continuing Studies Coding Bootcamp.
+                <br />
+                My goal is to help improve and optimize your business to be more efficient and generate more traffic to your website. Your clients expect a certain standard from you, and I am here to help you go beyond your client expectations.
+                <br /> 
+                I offer a wide range of skills from HTML, CSS, Javascript, and React; I’m also proficient in Photoshop.
+                <br />
+                As a goal-oriented onboarding specialist, I have developed strong communication and project management skills in the customer service industry, which has empowered my colleagues and clients over the years. With the strengths I have outlined, I would love to transfer that over and be the very definition of creating your dream team.
+
                 </p>       
             </div>
 

@@ -10,7 +10,7 @@ const Navbar = () => {
             <GiDeer className='deer-icon' />            
             <nav>
                 <ul class="nav__links">                    
-                    <li><a href='https://drive.google.com/file/d/1FooX3CPgD_tfe2gbXup9JVvG_LVZjWEx/view?usp=sharing' target= '_blank'>My Resume</a></li>
+                    <li><a href='https://drive.google.com/file/d/12opDn-6dw1WqHyJxWJyzSJ-J2vRs_k1I/view?usp=sharing' target= '_blank'>My Resume</a></li>
                     <li><a href='/Footer/#contact'>Contact Me</a></li>
                 </ul>
             </nav>            
